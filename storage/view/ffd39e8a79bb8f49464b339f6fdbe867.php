@@ -1,0 +1,161 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="Mark Otto, Jacob Thornton, and Bootstrap contributors">
+    <meta name="generator" content="Hugo 0.84.0">
+    <title>Checkout example · Bootstrap v5.0</title>
+
+    <!-- <link rel="canonical" href="https://getbootstrap.com/docs/5.0/examples/checkout/"> -->
+
+    
+
+    <!-- Bootstrap core CSS -->
+<link href="/assets/dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <style>
+      .bd-placeholder-img {
+        font-size: 1.125rem;
+        text-anchor: middle;
+        -webkit-user-select: none;
+        -moz-user-select: none;
+        user-select: none;
+      }
+
+      @media (min-width: 768px) {
+        .bd-placeholder-img-lg {
+          font-size: 3.5rem;
+        }
+      }
+    </style>
+
+    
+    <!-- Custom styles for this template -->
+    <link href="css_boot_50/form-validation.css" rel="stylesheet">
+  </head>
+  <body class="bg-light">
+    
+<div class="container">
+  <main>
+    <div class="py-5 text-center">
+      <img class="d-block mx-auto mb-4" src="../assets/brand/box2-heart-fill.svg" alt="" width="72" height="57">
+      <h2>Registro </h2>
+      <p class="lead">Se parte de nuestra gran familia, simplemente 
+        llena los espacios sin falta </p>
+    </div>
+
+    <div class="row g-5">
+  
+      <div class="col-md-0 ">
+        <h4 class="mb-3">Registro</h4>
+        <form class="needs-validation" novalidate>
+          <div class="row g-3">
+            <div class="col-sm-6">
+              <label for="firstName" class="form-label">Nombre con Apellido</label>
+              <input type="text" class="form-control" id="firstName" placeholder="Juan" value="" required>
+              <div class="invalid-feedback">
+                Este no es un nombre valido.
+              </div>
+            </div>
+
+            
+
+            <div class="col-12">
+              <label for="email" class="form-label">Email <span class="text-muted"></span></label>
+              <input type="email" class="form-control" id="email" placeholder="juan.perez0046@gmail.com">
+              <div class="invalid-feedback">
+                Ingresa un email
+              </div>
+            </div>
+
+            <div class="col-12">
+              <label for="address" class="form-label">Direccion</label>
+              <input type="text" class="form-control" id="address"  name="address" placeholder="Calle Xochimilco 123, Colonia Narvarte, Alcaldía Benito Juárez" required>
+              <div class="invalid-feedback">
+                Please enter your shipping address.
+              </div>
+            </div>
+
+            <div class="col-md-5">
+              <label for="country" class="form-label">Pais</label>
+              <select class="form-select" id="country" name="country" required>
+                <option value="">Mexico</option>
+ 
+              </select>
+              <div class="invalid-feedback">
+                Eso no es un pais
+              </div>
+            </div>
+
+            <div class="col-md-4">
+              <label for="state" class="form-label">Estado</label>
+              <select class="form-select" id="state" name="state" required>
+                <option value="">Aguascalientes</option>
+                <option>Baja California</option>
+                <option>Baja California Sur</option>
+                <option>Campeche</option>
+                <option>Chiapas</option>
+                <option>Chihuahua</option>
+                <option>Ciudad de México</option>
+                <option>Coahuila</option>
+                <option>Colima</option>
+                <option>Durango</option>
+                <option>Estado de México</option>
+                <option>Guanajuato</option>
+                <option>Guerrero</option>
+                <option>Hidalgo</option>
+                <option>Jalisco</option>
+                <option>Michoacán</option>
+                <option>Morelos</option>
+                <option>Nayarit</option>
+                <option>Nuevo León</option>
+                <option>Oaxaca</option>
+                <option>Puebla</option>
+                <option>Querétaro</option>
+                <option>Quintana Roo</option>
+                <option>San Luis Potosí</option>
+                <option>Sinaloa</option>
+                <option>Sonora</option>
+                <option>Tabasco</option>
+                <option>Tamaulipas</option>
+                <option>Tlaxcala</option>
+                <option>Veracruz</option>
+                <option>Yucatán</option>
+                <option>Zacatecas</option>
+              </select>
+              <div class="invalid-feedback">
+               Este no es un estado
+              </div>
+            </div>
+
+            <div class="col-md-3">
+              <label for="zip" class="form-label">Codigo Postal</label>
+              <input type="text" class="form-control" id="zip"  name="zip" placeholder="" required>
+              <div class="invalid-feedback">
+                Pon un codigo postal valido.
+              </div>
+            </div>
+          </div>
+
+            <div class="col-12 text-end mt-4">
+              <button class="btn btn-primary btn-md px-4" type="submit">Registrar</button>
+            </div>
+      </div>
+    </div>
+  </main>
+
+  <footer class="my-5 pt-5 text-muted text-center text-small">
+    <p class="mb-1">&copy; Esto es un proyecto estudiantil no una pagina real</p>
+    
+  </footer>
+</div>
+
+
+    <script src="/assets/dist/js/bootstrap.bundle.min.js"></script>
+
+      <script src="form-validation.js"></script>
+  </body>
+</html>
+<?php /**PATH C:\xampp\htdocs\Serv_web\resources\views/checkout/index_registro.blade.php ENDPATH**/ ?>
